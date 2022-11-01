@@ -44,7 +44,9 @@
                         </g>
                     </svg>
                 </div>
-
+                <a href=" {{route('home.index')}} ">首頁</a>
+                <a href=" {{route('about.index')}} ">關於本站</a>
+                <a href=" {{route('news.index')}} ">最新消息</a>
                 <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
                     <div class="grid grid-cols-1 md:grid-cols-2">
                         <div class="p-6">
